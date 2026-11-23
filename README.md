@@ -2,7 +2,7 @@
 
 ImageNet ön-eğitimli ResNet18, CIFAR-10 üzerinde fine-tune edildi. Test doğruluğu **%95.03** (macro F1 %95.02). Model, Gradio arayüzü ile çalışan bir web uygulaması olarak sunuluyor.
 
-Detaylı rapor: [RAPOR.md](RAPOR.md) / `RAPOR.docx`
+Detaylı rapor: [RAPOR.pdf](RAPOR.pdf) / [RAPOR.md](RAPOR.md) / `RAPOR.docx`
 
 ## Kurulum
 
