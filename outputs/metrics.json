@@ -1,0 +1,45 @@
+{
+  "test_accuracy": 0.9503,
+  "test_precision_macro": 0.9501906902852308,
+  "test_recall_macro": 0.9503,
+  "test_f1_macro": 0.9502144906932409,
+  "best_val_accuracy": 0.9564,
+  "train_time_sec": 1111.2489798069,
+  "inference_ms_per_image": 6.765570640563965,
+  "history": {
+    "train_loss": [
+      0.9590854244444106,
+      0.7612455447090997,
+      0.6521356496810913,
+      0.5816795789612664
+    ],
+    "train_acc": [
+      0.8144444444444444,
+      0.8927555555555555,
+      0.9376222222222222,
+      0.9692222222222222
+    ],
+    "val_loss": [
+      0.836601556968689,
+      0.7111697400093079,
+      0.6259627510070801,
+      0.6010457023620606
+    ],
+    "val_acc": [
+      0.859,
+      0.9144,
+      0.946,
+      0.9564
+    ]
+  },
+  "hyperparameters": {
+    "img_size": 128,
+    "batch_size": 128,
+    "epochs": 4,
+    "lr": 0.001,
+    "weight_decay": 0.05,
+    "label_smoothing": 0.1,
+    "scheduler": "OneCycleLR"
+  },
+  "device": "mps"
+}
